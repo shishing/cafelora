@@ -13,7 +13,7 @@ export const Contact = () => {
       <div class="contact">
         <div class="contact__address">
           Na Mýtě 240 <br>
-          514 03 Byšky nad Jizerou <br>     
+          514 03 Byšky nad Jizerou <br>   
           Tel: +420 775 334 427
         </div>
         <table class="contact__hours">

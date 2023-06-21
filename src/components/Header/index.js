@@ -22,6 +22,15 @@ element.innerHTML = `
       </div>
 
 `
+const navElm = element.querySelector(".rollout-nav")
+const btnElm = element.querySelector(".nav-btn")
+
+btnElm.addEventListener("click", ()=>{navElm.classList.toggle("nav-closed")})
+navElm.addEventListener("click", ()=>{navElm.classList.toggle("nav-closed")})
+
+
+
+
 
 return element
 
