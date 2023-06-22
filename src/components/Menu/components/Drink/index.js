@@ -26,7 +26,7 @@ export const Drink = (props) => {
     `
 
     const drinkInfoELm = element.querySelector(".drink__info")
-    drinkInfoELm.append(Layer({color: "#613916", label: "espresso"}))
+    drinkInfoELm.append(...layers.map((layer) => Layer(layer)))
 
   return element
 
